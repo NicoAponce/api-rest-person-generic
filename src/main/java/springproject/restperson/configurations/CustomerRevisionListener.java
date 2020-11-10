@@ -1,0 +1,1 @@
+package springproject.restperson.configurations;import org.hibernate.envers.RevisionListener;import springproject.restperson.models.audit.Revision;public class CustomerRevisionListener implements RevisionListener {    @Override    public void newRevision(Object review) {        final Revision revision= (Revision) review;    }}

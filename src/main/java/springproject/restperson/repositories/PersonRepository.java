@@ -1,0 +1,1 @@
+package springproject.restperson.repositories;import org.springframework.stereotype.Repository;import springproject.restperson.models.entities.Person;@Repositorypublic interface PersonRepository extends BaseRepository<Person, Long> {}

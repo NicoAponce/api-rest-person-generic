@@ -1,0 +1,1 @@
+package springproject.restperson.services;import springproject.restperson.models.entities.Author;public interface AuthorService extends BaseService<Author, Long> {}

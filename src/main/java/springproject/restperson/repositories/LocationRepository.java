@@ -1,0 +1,1 @@
+package springproject.restperson.repositories;import org.springframework.stereotype.Repository;import springproject.restperson.models.entities.Location;@Repositorypublic interface LocationRepository extends BaseRepository<Location,Long>{}

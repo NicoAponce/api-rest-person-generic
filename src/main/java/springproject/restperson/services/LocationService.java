@@ -1,0 +1,1 @@
+package springproject.restperson.services;import springproject.restperson.models.entities.Location;public interface LocationService extends BaseService<Location, Long> {}

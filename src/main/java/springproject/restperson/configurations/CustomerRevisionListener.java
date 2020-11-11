@@ -1,1 +1,1 @@
-package springproject.restperson.configurations;import org.hibernate.envers.RevisionListener;public class CustomerRevisionListener implements RevisionListener {    @Override    public void newRevision(Object review) {    }}
+package springproject.restperson.configurations;import org.hibernate.envers.RevisionListener;public class CustomerRevisionListener implements RevisionListener {    @Override    public void newRevision(Object review) {        //message    }}
